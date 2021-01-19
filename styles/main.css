@@ -1,0 +1,786 @@
+@charset "UTF-8";
+.header-box nav ul > li:first-child > a::before, .header-box nav ul > li:nth-child(2) > a::before, .header-box nav ul > li:nth-child(3) > a::before, .header-box nav ul > li:nth-child(4) > a::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0px;
+}
+
+body .slick-prev:before,
+body .slick-next:before {
+  color: white;
+  background: #fc6042;
+}
+
+body .planets-bg {
+  background-image: url("../resources/images/common/planets-bg-origin.png");
+  width: 100%;
+  height: 2400px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+body .planets-bg .heading-box h1 {
+  font-weight: 300;
+  color: white;
+  font-size: 60px;
+  padding: 200px 0px;
+}
+
+body .planets-bg .about-us-box h1 {
+  font-weight: 300;
+  color: white;
+  font-size: 60px;
+  padding: 200px 0px;
+}
+
+header .dropdown-toggle::after {
+  display: none;
+}
+
+header .dropdown-menu {
+  padding: 0px;
+}
+
+header .dropdown-menu a {
+  padding: 0px 0px 0px 2px;
+  color: white;
+  width: 80px;
+  margin: 0px !important;
+}
+
+header .dropdown-menu a:hover {
+  background: transparent;
+  color: #ef6d2e;
+}
+
+header .dropdown-menu.show {
+  min-width: 50px;
+  border: none;
+  background: transparent;
+}
+
+#map {
+  width: 100%;
+  height: 530px;
+  background: orange;
+  position: relative;
+}
+
+#map .google-title {
+  width: 200px;
+  height: 100px;
+  background: orange;
+  z-index: -1 !important;
+}
+
+main article .plan-items > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+main article section .contact-box {
+  background: #1db4db;
+}
+
+main article section .add-padd {
+  padding-bottom: 50px;
+}
+
+main article section .contact {
+  padding-top: 75px;
+  padding-bottom: 160px;
+}
+
+main article section .contact :first-child :nth-child(2) :nth-child(2) {
+  color: #232e4d;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+main article section .contact :first-child :nth-child(4) :nth-child(2) {
+  color: #232e4d;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+main article section .contact :first-child :nth-child(4) :nth-child(3) {
+  color: #232e4d;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -10px;
+}
+
+main article section .item-box {
+  padding: 70px 15px;
+}
+
+main article section .item-box ul {
+  padding-left: 0px;
+}
+
+main article section .item-box ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+main article section .hosting-types {
+  padding: 50px 0px;
+}
+
+main article section .hosting-types a {
+  margin: -2px;
+  border-radius: 0px;
+  padding: 20px 70px;
+  border: 1px solid #e4e4e4;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1db4db;
+}
+
+main article section .hosting-types a.active {
+  background: #e4e4e4;
+  color: #2d3e50;
+}
+
+main article section .hosting-types a:hover {
+  background: #e4e4e4;
+  color: #2d3e50;
+}
+
+main article section .plans-box {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+main article section .plans-box .plan-items {
+  padding: 0px 15px;
+  color: white;
+  text-align: center;
+}
+
+main article section .plans-box .plan-items div div {
+  padding: 0px;
+}
+
+main article section .plans-box .plan-items div div a {
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) {
+  font-size: 15px;
+  background: #2c82c9;
+  border-radius: 2px;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) {
+  background: #2c82c9;
+  padding: 12px 0px;
+  font-weight: 500;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) :nth-child(2) {
+  font-weight: 300;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) :nth-child(2) :first-child {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) :nth-child(2) :nth-child(2) {
+  font-size: 16px;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) span {
+  background: #2c82c9;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) div:nth-child(2) {
+  background: #1567ab;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) div:nth-child(2) span {
+  background: #1567ab;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) div:first-child span {
+  font-size: 16px !important;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) div:last-child {
+  padding: 20px 0px;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) div a {
+  background: white;
+  color: #2c82c9;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(odd) div a:hover {
+  background: #2d3e50;
+  color: white;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(even) {
+  background: #257bc1;
+  padding: 12px 0px;
+}
+
+main article section .plans-box .plan-items :nth-child(odd) div:nth-child(even) span {
+  background: #257bc1;
+}
+
+main article section .plans-box .plan-items :nth-child(even) {
+  font-size: 15px;
+  background: #2d3e50;
+  border-radius: 2px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) {
+  background: #2d3e50;
+  padding: 12px 0px;
+  font-weight: 500;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) :nth-child(2) {
+  font-weight: 300;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) :nth-child(2) :first-child {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) :nth-child(2) :nth-child(2) {
+  font-size: 16px;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) span {
+  background: #2d3e50;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) div:nth-child(2) {
+  padding: 0px;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) div:first-child span {
+  font-size: 16px !important;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) div:last-child {
+  padding: 20px 0px;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) div a {
+  background: #21b139;
+  color: white;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(odd) div a:hover {
+  background: #2c82c9;
+  color: black;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(even) {
+  background: #273849;
+  padding: 12px 0px;
+}
+
+main article section .plans-box .plan-items :nth-child(even) div:nth-child(even) span {
+  background: #273849;
+}
+
+main article section .table thead tr th {
+  font-size: 16px;
+  font-weight: 500;
+  background: #2d3e50;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
+main article section .table thead tr :first-child {
+  background: #2c82c9;
+  width: 300px;
+}
+
+main article section .table tbody tr :first-child {
+  color: #2d3e50;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+main article section .table tbody tr td {
+  text-align: center;
+  color: #2c82c9;
+  font-weight: 700;
+}
+
+main article section .table tbody :nth-child(3) :nth-child(3) {
+  text-align: center !important;
+}
+
+main article section.domain-prices table.table.table-striped.domain thead tr th {
+  background: transparent;
+  color: black;
+  text-align: left;
+  font-weight: 700;
+}
+
+main article section.domain-prices table.table.table-striped.domain thead tr :first-child {
+  width: 100px;
+}
+
+main article section.domain-prices table.table.table-striped.domain tbody tr th {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main article section.domain-prices table.table.table-striped.domain tbody tr td {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a.navbar-brand {
+  background-image: url("../resources/images/common/logo.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  width: 202px;
+  height: 42px;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.footer-box {
+  background: #28292f;
+  padding: 40px 0px;
+}
+
+.footer-box .footer-items .email-box :first-child {
+  padding-left: 15px !important;
+}
+
+.footer-box .footer-items .email-box :nth-child(2) {
+  font-size: 18px;
+  color: white;
+  padding-left: 15px !important;
+}
+
+.footer-box .footer-items .contacts :first-child :first-child div {
+  padding-left: 30px;
+}
+
+.footer-box .footer-items .contacts :first-child :first-child :first-child {
+  font-size: 14px;
+  font-weight: 500;
+  color: #85899c;
+  margin-bottom: -5px;
+}
+
+.footer-box .footer-items .telefon-box {
+  margin-top: 20px;
+}
+
+.footer-box .footer-items .telefon-box :first-child {
+  margin-left: 15px !important;
+}
+
+.footer-box .footer-items .telefon-box :nth-child(2) {
+  margin-left: 15px !important;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+.footer-box .footer-items ul > li {
+  list-style: none !important;
+}
+
+.footer-box .footer-items ul > li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-box .footer-items ul > li a:hover {
+  color: #1db4db;
+}
+
+.footer-box .footer-logo {
+  background-image: url("../resources/images/common/logo.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  width: 202px;
+  height: 42px;
+  color: white;
+  display: inline-block;
+}
+
+.footer-box .footer-logo::before {
+  content: '© 2020 Cloxter';
+  position: absolute;
+  top: 65px;
+  left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-box {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#292441), to(#1b395a));
+  background: linear-gradient(to right, #292441, #1b395a);
+}
+
+.header-box .language-menu .btn {
+  color: white;
+  font-size: 13px;
+}
+
+.header-box .dropdown .btn {
+  font-size: 13px;
+}
+
+.header-box .dropdown .dropdown-item {
+  font-size: 13px;
+  background: #1d2b3e;
+  border: 1px solid black;
+  padding: 5px 0px;
+}
+
+.header-box nav {
+  padding: 0px;
+}
+
+.header-box nav ul {
+  padding-left: 130px;
+}
+
+.header-box nav ul > li > a.lang {
+  display: none;
+}
+
+.header-box nav ul > li > a {
+  color: white !important;
+  padding: 20px !important;
+}
+
+.header-box nav ul > li > a {
+  position: relative;
+}
+
+.header-box nav ul > li > a:hover {
+  background: #1d2b3e;
+}
+
+.header-box nav ul > li:first-child > a::before {
+  background: #fcb941;
+}
+
+.header-box nav ul > li:first-child > a:hover {
+  color: #fcb941 !important;
+}
+
+.header-box nav .active-host {
+  background: #1d2b3e;
+  color: #fcb941 !important;
+}
+
+.header-box nav ul > li:nth-child(2) > a::before {
+  background: #fc6042;
+}
+
+.header-box nav ul > li:nth-child(2) > a:hover {
+  color: #fc6042 !important;
+}
+
+.header-box nav .active-domain {
+  background: #1d2b3e;
+  color: #fc6042 !important;
+}
+
+.header-box nav ul > li:nth-child(3) > a::before {
+  background: #2c82c9;
+}
+
+.header-box nav ul > li:nth-child(3) > a:hover {
+  color: #2c82c9 !important;
+}
+
+.header-box nav .active-about-us {
+  background: #1d2b3e;
+  color: #2c82c9 !important;
+}
+
+.header-box nav ul > li:nth-child(4) > a::before {
+  background: #2cc990;
+}
+
+.header-box nav ul > li:nth-child(4) > a:hover {
+  color: #2cc990 !important;
+}
+
+.header-box nav .active-contacts {
+  background: #1d2b3e;
+  color: #2cc990 !important;
+}
+
+.header-box nav .brand-box {
+  padding-bottom: 20px;
+}
+
+.hosting-box h1 {
+  font-weight: 300;
+  color: white;
+  font-size: 60px;
+  padding: 200px 0px;
+}
+
+.domain-box {
+  background-image: url("../resources/images/domain/bg-domain.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.domain-box h1 {
+  font-weight: 300;
+  color: white;
+  font-size: 60px;
+  padding: 200px 0px;
+}
+
+.partners {
+  background: white;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.partners h1 {
+  color: #1db4db;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.partners :nth-child(2) :first-child div {
+  background-position: center center;
+}
+
+.partners :nth-child(2) :first-child div :first-child {
+  background-position: left center;
+}
+
+@media (max-width: 1199.8px) {
+  nav ul {
+    padding-left: 50px !important;
+  }
+  article section.domain-prices table.domain tbody tr td {
+    font-size: 14px !important;
+  }
+  article section.domain-prices table.domain tbody tr :first-child {
+    font-size: 14px !important;
+  }
+  article section.domain-prices table.domain thead tr th {
+    font-size: 14px !important;
+  }
+  .contact :first-child :nth-child(2) :nth-child(2) {
+    padding-bottom: 30px;
+    font-size: 24px !important;
+  }
+  .contact :first-child :nth-child(4) :nth-child(2) {
+    font-size: 24px !important;
+  }
+  .contact :first-child :nth-child(4) :nth-child(3) {
+    font-size: 24px !important;
+    margin-top: -10px;
+  }
+}
+
+input {
+  color: #ec6c37 !important;
+  font-size: 14px !important;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 14px !important;
+  font-weight: 400;
+  color: #28292f !important;
+}
+
+textarea {
+  color: #ec6c37 !important;
+  font-size: 14px !important;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: 14px !important;
+  font-weight: 400;
+  color: #28292f !important;
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
+}
+
+@media (max-width: 991.8px) {
+  article section .add-padd {
+    padding-bottom: 50px;
+  }
+  article section .add-padd :first-child :nth-child(2) :first-child :first-child {
+    padding-top: 3px !important;
+  }
+  article section .add-padd :first-child :nth-child(2) :first-child :nth-child(2) {
+    padding-top: 5px !important;
+  }
+  article section .add-padd .mg {
+    margin-top: 30px;
+  }
+  article section .domain-prices .text-left p {
+    text-align: center;
+  }
+  article .footer-box .footer-items :first-child a {
+    margin: auto;
+  }
+  article .footer-box .footer-logo {
+    background-position: top center;
+    margin: auto;
+  }
+  article .footer-box .footer-logo::before {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  article .footer-box .footer-links.first ul {
+    margin-top: 50px;
+    padding: 0px;
+    margin-left: 150px;
+    text-align: left;
+  }
+  article .footer-box .footer-links.second ul {
+    margin-top: 50px;
+    padding: 0px;
+    padding-left: -200px;
+    text-align: left;
+  }
+  article .dropdown {
+    display: none;
+  }
+  article .domain-box h1 {
+    font-size: 30px !important;
+    padding: 50px !important;
+  }
+  article .about-us-box h1 {
+    font-size: 30px !important;
+    padding: 50px !important;
+  }
+  article .header-box {
+    padding-top: 20px;
+  }
+  article .header-box nav button.navbar-toggler {
+    margin-bottom: 10px;
+  }
+  article .heading-box h1 {
+    font-size: 30px !important;
+    padding: 50px !important;
+  }
+  article .hosting-box h1 {
+    font-size: 30px !important;
+    padding: 50px !important;
+  }
+  article .hosting-types a {
+    display: block;
+    text-align: center;
+  }
+  article nav {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  article nav ul.navbar-nav {
+    padding-left: 0px !important;
+  }
+  article nav ul > li > a.lang {
+    display: block !important;
+  }
+  article nav ul > li:first-child > a::before {
+    display: none;
+  }
+  article nav ul > li:nth-child(2) > a::before {
+    display: none;
+  }
+  article nav ul > li:nth-child(3) > a::before {
+    display: none;
+  }
+  article nav ul > li:nth-child(4) > a::before {
+    display: none;
+  }
+  article .partners :nth-child(2) :first-child div {
+    background-position: center center !important;
+  }
+  article article section.domain-prices table.domain tbody tr td {
+    font-size: 14px !important;
+  }
+  article article section.domain-prices table.domain tbody tr :first-child {
+    font-size: 14px !important;
+  }
+  article article section.domain-prices table.domain thead tr th {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 767.8px) {
+  .about-us-box h1 {
+    padding: 50px 0px;
+    font-size: 28px;
+  }
+  .domain-box h1 {
+    padding: 50px 0px;
+    font-size: 28px;
+  }
+  .heading-box h1 {
+    padding: 50px 0px;
+    font-size: 28px;
+  }
+  .hosting-box h1 {
+    padding: 50px 0px;
+    font-size: 28px;
+  }
+  .footer-links.first ul {
+    margin-left: 50px !important;
+  }
+  .note {
+    font-size: 12px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
